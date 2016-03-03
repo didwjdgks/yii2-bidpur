@@ -1,0 +1,26 @@
+{
+  "name": "yii2-bidpur",
+  "homepage": "https://github.com/didwjdgks/yii2-bidpur",
+  "authors": [
+    "didwjdgks <yjh@info21c.net>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-1": "jquery#1.*",
+    "jquery": "2",
+    "font-awesome": "fontawesome#^4.5.0",
+    "select2": "^4.0.1",
+    "bootstrap": "^3.3.6"
+  }
+}
