@@ -21,7 +21,7 @@ class Module extends \yii\base\Module
   public function init(){
     parent::init();
 
-    //$this->db=Instance::ensure($this->db,Connection::className());
+    $this->db=Instance::ensure($this->db,Connection::className());
   }
 
   public function beforeAction($action){

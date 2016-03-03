@@ -10,7 +10,7 @@ class BidpurSearch extends \yii\db\ActiveRecord
   }
 
   public static function getDb(){
-    Module::getInstance()->db;    
+    return Module::getInstance()->db;    
   }
 }
 
