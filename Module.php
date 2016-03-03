@@ -14,6 +14,8 @@ class Module extends \yii\base\Module
 
   public $session='session';
 
+  public $user='user';
+
   public $assetDir='bidpur-assets';
 
   public function init(){
